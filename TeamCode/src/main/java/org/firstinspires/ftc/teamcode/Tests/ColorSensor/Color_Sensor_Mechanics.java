@@ -50,15 +50,15 @@ public class Color_Sensor_Mechanics {
         //TODO add if statements for specific colors added
 
 
-       /*  if (normRed > .85 && normGreen < .65 && normBlue < .64) {
+         if (normRed > 1.5 && normGreen < .13 && normBlue < .3) {
             return DetectedColor.RED;
         } else if (normRed < .55 && normGreen > .85 && normBlue < .85) {
             return DetectedColor.GREEN;
         } else if (normRed < .45 && normGreen < .8 && normBlue > .85) {
              return DetectedColor.BLUE;
-       */ if (normGreen > normBlue && normGreen > normRed && normRed < (normGreen / 2)) {
+        } else if (normGreen > normBlue && normGreen > normRed && normRed < (normGreen / 2)) {
                  return DetectedColor.GREENBALL;
-       } else if (normBlue > normGreen && normBlue > normRed) {
+        } else if (normBlue > normGreen && normBlue > normRed) {
                  return DetectedColor.PURPLEBALL;
         } else return DetectedColor.UNKNOWN;
     }
