@@ -21,9 +21,6 @@ public class Color_Sensor extends OpMode {
         switch (detected) {
             case PURPLEBALL: BallColor = "Purple"; break;
             case GREENBALL: BallColor = "Green"; break;
-            case RED: BallColor = "Red"; break;
-            case BLUE: BallColor = "Blue"; break;
-            case GREEN: BallColor = "Green"; break;
             default: BallColor = "Unknown";
         }
 
