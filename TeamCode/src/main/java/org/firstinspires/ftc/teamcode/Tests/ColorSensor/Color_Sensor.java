@@ -21,7 +21,7 @@ public class Color_Sensor extends OpMode {
         switch (detected) {
             case PURPLEBALL: BallColor = "Purple"; break;
             case GREENBALL: BallColor = "Green"; break;
-            default: BallColor = "None";
+            default: BallColor = "Unknown";
         }
 
         telemetry.addData("Ball Color", BallColor);
