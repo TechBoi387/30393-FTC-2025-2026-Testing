@@ -24,7 +24,6 @@ public class Color_Sensor_Mechanics {
         colorSensor.setGain(15);
     }
 
-
     public DetectedColor getDetectedColor(Telemetry telemetry) {
         NormalizedRGBA colors = colorSensor.getNormalizedColors(); // returns 4 values red, blue, green, alpha (brightness/ light)
 
